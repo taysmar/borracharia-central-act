@@ -1,0 +1,32 @@
+nav {
+display: flex;
+flex-direction: row;
+margin: 20px 100px;
+justify-content: space-between;
+align-items: center;
+}
+.logo {
+    font-size: 48px;
+}
+#linksNavbar a{
+    margin: 10px;
+    font-size: 20px;
+}
+#heroContainer{
+    
+
+}
+#heroContainer h1{
+
+}
+button#saibaMais {
+
+}
+#imgHeroOne{
+    width: 347px;
+    height: 483px;
+}
+#imgHeroTwo{
+    width: 275px;
+    height: 348px;
+}
