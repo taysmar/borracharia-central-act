@@ -12,21 +12,11 @@ align-items: center;
     margin: 10px;
     font-size: 20px;
 }
-#heroContainer{
-    
-
-}
-#heroContainer h1{
-
-}
-button#saibaMais {
-
-}
-#imgHeroOne{
-    width: 347px;
+#hero-image-front{
     height: 483px;
+    width: 347px;
 }
-#imgHeroTwo{
-    width: 275px;
+#hero-image-back{
     height: 348px;
+    width: 275px;
 }
