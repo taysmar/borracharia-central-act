@@ -1,22 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Raleway:wght@100;200;300;700&display=swap');
+
+/*font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image: url("./src/Mask\ group.png");
+    background-repeat: no-repeat; 
+    background-size: 1100px 700px;
+    
+}
 nav {
 display: flex;
 flex-direction: row;
-margin: 20px 100px;
-justify-content: space-between;
 align-items: center;
+padding: 24px;
+justify-content: space-around;
 }
 .logo {
     font-size: 48px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #F2F2F2;
 }
-#linksNavbar a{
+#linksNavbar a {
     margin: 10px;
     font-size: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
-#hero-image-front{
+.button-orcamento {
+    height: 45px;
+    width: 170px;
+    font-size: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #f2f2f2;
+    background: linear-gradient(267.36deg, #132067 -51.65%, rgba(79, 79, 79, 0) 255.4%);
+    border-radius: 8px;
+    border: none;
+
+}
+.section-hero {
+    border-top: 0.4px solid #0B1F3B;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.hero-text {
+    width: 50%;
+    margin-left: 90px;
+}
+.hero-text button {
+    margin-top: 60px;
+    color: #4f4f4f;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    width: 175px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 80;
+}
+.hero-text-static {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #F2F2F2;
+    font-size: 40px;
+    
+}
+.hero-text-unstatic {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #F2F2F2;
+    margin-top: 24px;
+
+}
+.hero-img {
+    margin-top: 20px;
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.hero-image-front {
     height: 483px;
     width: 347px;
+    border-radius: 24px;
+    position: relative;
+    left: 68px;
 }
-#hero-image-back{
+.hero-image-back {
     height: 348px;
     width: 275px;
+    border-radius: 24px;
 }
+
+.footer{
+    background-color: #132067;
+}
+
+.copyright {
+    background-color: #0C1751;
+}
+
