@@ -19,11 +19,11 @@ body{
     
 }
 nav {
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 24px;
-justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px;
+    justify-content: space-around;
 }
 .logo {
     font-size: 48px;
@@ -67,7 +67,7 @@ justify-content: space-around;
     height: 50px;
     border-radius: 8px;
     border: none;
-    margin-left: 80;
+    margin-left: 80px;
 }
 .hero-text-static {
     font-family: 'Montserrat Alternates', sans-serif;
@@ -84,7 +84,7 @@ justify-content: space-around;
 
 }
 .hero-img {
-    margin-top: 20px;
+    margin: 20px 50px;
     display: flex;
     width: 50%;
     align-items: center;
@@ -102,11 +102,200 @@ justify-content: space-around;
     border-radius: 24px;
 }
 
+.section-container-services {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 90;
+}
+.side-text-services {
+    width: 50%;
+    padding-right: 130px;
+    font-size: 18px;
+    margin-left: 50px;
+
+}
+
+.services-container {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    justify-content: space-between;
+    font-family: 'Raleway';
+    font-weight: 700;
+
+}
+
+.body-service-text {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.title-chose-whats-best {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0B1F3B;
+    margin: 10px 0px;
+}
+
+.rectangle {
+    margin: 10px 0px;
+}
+
+.wheel {
+    width: 40%;
+}
+
+.truck {
+    width: 40%;
+
+}
+.car-service {
+    width: 40%;
+    text-align: right;
+    margin-right: 50px;
+    
+}
+
+.support {
+    width: 40%;
+    text-align: right;
+    margin-right: 50px;
+
+}
+.rectangle-right {
+    padding: 10px 0;
+}
+
+.body-second-section {
+
+}
+
+.mechanic-frist-img {
+    width: 590px;
+    height: 425px;
+    border-radius: 24px;
+}
+.container-second-section {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 150px 200px 50px;
+}
+
+.body-text-left {
+    margin-left: 200px;
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-size: 18px;
+    color: #0B1F3B;
+}
+.title-service {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Raleway';
+}
+
+.container-third-section {
+    display: flex;
+    flex-direction: row;
+    margin: 0 160px 160px 120px;
+}
+.body-third-text {
+    padding-right: 90px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.text-second-mechanical{
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.mechanic-second-img {
+    width: 540px;
+    height: 369px;
+    border-radius: 24px;
+}
+
+.adress-container {
+    display: flex;
+    margin: 125px 160px 125px 125px;
+    justify-content: space-between;
+}
+.where-find-us {
+    font-family: 'Raleway';
+}
+
+#find-us-container {
+    display: flex;
+
+}
+.where-find {
+    font-weight: 700;
+    font-size: 24px;
+    margin: 10px 0;
+}
+.loc-text {
+    font-size: 18px;
+
+}
+.marker-pic {
+    width: 118px;
+    height: 125px;
+    margin-right: 30px;
+}
+
+.iframe {
+    width: 522px;
+    height: 369px;
+}
+
 .footer{
     background-color: #132067;
+}
+.rodape{
+    height: 289px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-footer{
+    font-family: 'Montserrat Alternates';
+    font-weight: 400;
+    font-size: 32px;
+    color: #F2F2F2;
+    margin: 50px 0 20px 135px;
+
+}
+
+.social-media {
+    margin: 50px 200px 40px 0;
+    justify-content: space-between;
+}
+
+.contact-button {
+    width: 160px;
+    height: 47px;
+    background: #F2F2F2;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Raleway';
+    font-weight: 300;
+    color: #000000;
 }
 
 .copyright {
     background-color: #0C1751;
+    text-align: center;
+    color: #F2F2F2;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
 }
 
