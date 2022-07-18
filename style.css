@@ -14,6 +14,7 @@ font-family: 'Raleway', sans-serif;
 body{
     font-size: 100%;
     background-image: url("./src/Mask\ group.png");
+
     background-repeat: no-repeat; 
     background-size: 1100px 700px;
     
@@ -47,7 +48,7 @@ nav {
 
 }
 .section-hero {
-    border-top: 0.4px solid #0B1F3B;
+
     margin-bottom: 100px;
     display: flex;
     flex-direction: row;
@@ -67,7 +68,7 @@ nav {
     height: 50px;
     border-radius: 8px;
     border: none;
-    margin-left: 80px;
+    
 }
 .hero-text-static {
     font-family: 'Montserrat Alternates', sans-serif;
@@ -169,10 +170,6 @@ nav {
 }
 .rectangle-right {
     padding: 10px 0;
-}
-
-.body-second-section {
-
 }
 
 .mechanic-frist-img {
@@ -297,5 +294,47 @@ nav {
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
+}
+
+ @media (max-width: 1024px){
+    body {
+        width: 100%;
+    }
+    .hero-text-static {
+        font-size: 35px;
+    }
+    .hero-img {
+        margin-right: 90px;
+    }
+    .side-text-services {
+        padding-right: 70px;
+    }
+    .mechanic-frist-img {
+        width: 500px;
+        height: 350px;
+        margin-left: 20px;
+    }
+    .body-text-left {
+        margin-left: 60px;
+    }
+    .container-second-section {
+        margin-bottom: 100px;
+    }
+    .mechanic-second-img {
+        width: 430px;
+        height: 340px;
+    }
+    .container-third-section {
+        margin: 0px 70px;
+    }
+   .body-third-text{
+        margin-top: 0px;
+   }
+   .adress-container {
+    display: flex;
+    margin: 100px 80px 100px 125px;
+    justify-content: space-between;
+}
+    
 }
 
