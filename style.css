@@ -26,6 +26,10 @@ nav {
     padding: 24px;
     justify-content: space-around;
 }
+section {
+padding-left: 50px;
+padding-right: 50px;
+}
 .logo {
     font-size: 48px;
     font-family: 'Montserrat Alternates', sans-serif;
@@ -57,7 +61,7 @@ nav {
 }
 .hero-text {
     width: 50%;
-    margin-left: 90px;
+
 }
 .hero-text button {
     margin-top: 60px;
@@ -85,7 +89,7 @@ nav {
 
 }
 .hero-img {
-    margin: 20px 50px;
+    margin: 20px 0px 20px 0px;
     display: flex;
     width: 50%;
     align-items: center;
@@ -116,7 +120,7 @@ nav {
     width: 50%;
     padding-right: 130px;
     font-size: 18px;
-    margin-left: 50px;
+
 
 }
 
@@ -158,14 +162,12 @@ nav {
 .car-service {
     width: 40%;
     text-align: right;
-    margin-right: 50px;
     
 }
 
 .support {
     width: 40%;
     text-align: right;
-    margin-right: 50px;
 
 }
 .rectangle-right {
@@ -180,7 +182,7 @@ nav {
 .container-second-section {
     display: flex;
     flex-direction: row;
-    margin: 50px 150px 200px 50px;
+    margin: 50px 0px 200px 0px;
 }
 
 .body-text-left {
@@ -199,7 +201,7 @@ nav {
 .container-third-section {
     display: flex;
     flex-direction: row;
-    margin: 0 160px 160px 120px;
+    margin: 0 0px 160px 0px;
 }
 .body-third-text {
     padding-right: 90px;
@@ -221,7 +223,7 @@ nav {
 
 .adress-container {
     display: flex;
-    margin: 125px 160px 125px 125px;
+    margin: 125px 0px 125px 0px;
     justify-content: space-between;
 }
 .where-find-us {
@@ -337,4 +339,100 @@ nav {
 }
     
 }
+@media (max-width: 768px){
+    nav{
+        width: 100%;
+    }
+    .logo {
+        font-size: 30px;
+        width: 45%;
+    }
+    #linksNavbar a {
+        width: 35%;
+        margin: 10px;
+        font-size: 18px;
+    }
+    .container-orcamento{
+        width: 15%;
+        margin-right: 20px;
+    }
+    .button-orcamento {
+        height: 43px;
+        width: 130px;
+        font-size: 16px;
+    }
+    .section-hero{
+        justify-content: space-around;
 
+    }
+    .hero-text {
+        margin-left: 60px;
+    }
+    .hero-text-static {
+        font-size: 30px;
+    }
+    .hero-text button {
+        margin-top: 40px;
+    }
+    .hero-image-front{
+        left: 50px;
+        height: 400px;
+        width: 264px;
+    }
+    .hero-image-back {
+        display: none;
+    }
+    .hero-img {
+        margin-left: 24px;
+    }
+    .car-service {
+        margin-right: 20px;
+    }
+    .support {
+        margin-right: 20px;
+    }
+    .mechanic-frist-img {
+        width: 420px;
+        height: 270px;
+        margin-left: 0;
+    }
+    .body-text-left {
+        margin-left: 40px;
+    }
+    .title-service {
+        font-size: 20px;
+    }
+    .container-second-section {
+        margin: 0 20px 100px 50px;
+    }
+    .container-third-section {
+        margin: 0 40px 80px 80px;
+    }
+    .body-third-text {
+        padding-right: 30px;
+    }
+    .mechanic-second-img {
+        width: 430px;
+        height: 290px;
+    }
+    .adress-container {
+        margin: 50px 20px 80px 60px;
+    }
+
+    .rodape {
+        height: 230px;
+        
+    }
+    .logo-footer {
+        margin: 50px 30px 20px 60px;
+        font-size: 30px;
+    }
+    .social-media{
+        margin: 50px 80px 40px 60px;        
+    }
+    .contact-button {
+        margin-left: 60px;
+        width: 160px;
+        height: 47px;
+    }
+}
