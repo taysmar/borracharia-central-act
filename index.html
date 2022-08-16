@@ -8,17 +8,28 @@
       content="Há mais de 30 anos de tradição, buscando o melhor para seu veículo"
     />
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
     <title>Borracharia Central</title>
   </head>
   <body>
     <header>
       <nav>
         <div class="logo">Borracharia Central</div>
-        <div id="linksNavbar">
-          <a href="#">Link</a>
-          <a href="#">Link</a>
-          <a href="#">Link</a>
-          <a href="#">Link</a>
+
+        <button class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="linksNavbar" id="linksNavbar">
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
         </div>
         <div class="container-orcamento">
           <button class="button-orcamento" href="#">Orçamento</button>
@@ -219,7 +230,7 @@
         <div class="logo-footer">
           <p>Borracharia Central</p>
         </div>
-        <div>
+        <div class="rodape-right">
           <div class="social-media">
             <img src="./src/Facebook.svg" alt="Facebook" />
             <img src="./src/Instagram.svg" alt="Instagram" />
@@ -233,5 +244,6 @@
         <p>Copyright - Activus business 2022</p>
       </div>
     </footer>
+    <script type="text/javascript" src="./script.js"></script>
   </body>
 </html>

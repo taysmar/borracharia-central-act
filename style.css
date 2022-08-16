@@ -17,14 +17,17 @@ body{
 
     background-repeat: no-repeat; 
     background-size: 1100px 700px;
+    overflow-x: hidden;
     
 }
 nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 24px;
+    padding: 15px;
     justify-content: space-around;
+    background-color: #040922;
+    flex-wrap: wrap;
 }
 section {
 padding-left: 50px;
@@ -35,10 +38,28 @@ padding-right: 50px;
     font-family: 'Montserrat Alternates', sans-serif;
     color: #F2F2F2;
 }
+.hamburger{
+    display: none;
+    background-color: transparent;
+    color: #FFF;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+.hamburger:focus{
+    outline: none;
+}
+#linksNAvbar{
+    display: flex;
+}
+
 #linksNavbar a {
     margin: 10px;
     font-size: 20px;
     font-family: 'Montserrat Alternates', sans-serif;
+}
+#linksNavbar li{
+    list-style: none;
 }
 .button-orcamento {
     height: 45px;
@@ -347,6 +368,19 @@ padding-right: 50px;
         font-size: 30px;
         width: 45%;
     }
+    .hamburger{
+        display: block;
+     
+    }
+    
+    #linksNavbar {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+    }
+    #linksNavbar.show {
+        display: flex;
+    }
     #linksNavbar a {
         width: 35%;
         margin: 10px;
@@ -355,6 +389,7 @@ padding-right: 50px;
     .container-orcamento{
         width: 15%;
         margin-right: 20px;
+        display: none;
     }
     .button-orcamento {
         height: 43px;
@@ -435,4 +470,72 @@ padding-right: 50px;
         width: 160px;
         height: 47px;
     }
+}
+
+@media (max-width: 320px) {
+    nav{
+        padding: 10px;
+        width: 100%;
+    }
+    section {
+        padding: 10px;
+        margin: 0px;
+    }
+    .logo{
+        width: 70%;
+        font-size: 26px;
+    }
+
+    #linksNavbar {
+        width: 30%;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        list-style-type: none;
+        
+   
+    }
+
+    
+    .hero-text{
+        margin-top: 25px;
+    }
+    .section-hero{
+        justify-content: flex-start;
+        
+    }
+    .button-orcamento{
+        display: none;
+    }
+    .hero-text-static{
+        font-size: 30px;
+    }
+    .hero-text-unstatic{
+        font-size: 38;
+    }
+    .hero-text{
+        margin-left: 0;
+    }
+   
+
+    .hero-img {
+        display: none;
+    }
+    .mechanic-frist-img {
+        display: none;
+    }
+    .mechanic-second-img {
+        display: none;
+    }
+    .where-find-us {
+        display: flex;
+        flex-direction: column;
+    }
+    .iframe {
+        display: none;
+    }
+    .rodape-right{
+        display: none;
+    }
+    
 }
