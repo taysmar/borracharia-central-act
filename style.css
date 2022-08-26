@@ -60,9 +60,13 @@ padding-right: 50px;
     margin: 10px;
     font-size: 20px;
     font-family: 'Montserrat Alternates', sans-serif;
+    color: #F2F2F2;
 }
 #linksNavbar li{
     list-style: none;
+}
+#linksNavbar a:hover {
+    color: #c4c4c4;
 }
 .button-orcamento {
     height: 45px;
@@ -73,6 +77,11 @@ padding-right: 50px;
     background: linear-gradient(267.36deg, #132067 -51.65%, rgba(79, 79, 79, 0) 255.4%);
     border-radius: 8px;
     border: none;
+    transition: 0.2s all;
+    cursor: pointer;
+}
+.button-orcamento:hover{
+    filter: opacity(0.9);
 }
 .section-hero {
 
@@ -95,7 +104,11 @@ padding-right: 50px;
     height: 50px;
     border-radius: 8px;
     border: none;
-    
+    transition: 0.2s all;
+    cursor: pointer;
+}
+.hero-text button:hover{
+    filter: opacity(0.9);
 }
 .hero-text-static {
     font-family: 'Montserrat Alternates', sans-serif;
