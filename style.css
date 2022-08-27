@@ -95,6 +95,9 @@ padding-right: 50px;
     width: 50%;
 
 }
+#hero-text-group{
+    min-height: 120px;
+}
 .hero-text button {
     margin-top: 60px;
     color: #4f4f4f;
@@ -335,6 +338,9 @@ padding-right: 50px;
     .hero-text-static {
         font-size: 35px;
     }
+    #hero-text-group{
+        min-height: 142px;
+    }
     .hero-img {
         margin-right: 90px;
     }
@@ -411,6 +417,9 @@ padding-right: 50px;
     }
     .hero-text {
         margin-left: 60px;
+    }
+    #hero-text-group{
+        min-width: 277px;
     }
     .hero-text-static {
         font-size: 30px;
@@ -510,6 +519,10 @@ padding-right: 50px;
     
     .hero-text{
         margin-top: 25px;
+    }
+    #hero-text-group{
+        min-width: 140px;
+        min-height: 156px;
     }
     .section-hero{
         display: flex;
