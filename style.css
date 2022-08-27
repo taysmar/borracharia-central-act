@@ -492,7 +492,7 @@ padding-right: 50px;
    
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
     nav{
         padding: 10px;
         width: 100%;
